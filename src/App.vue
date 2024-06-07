@@ -25,6 +25,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
 
   <RouterView />
+  <el-backtop :right="70" :bottom="70" />
 </template>
 
 <style scoped>
