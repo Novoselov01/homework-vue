@@ -1,6 +1,14 @@
 export interface IProduct {
   id: number
   title: string
+  price: number
+  discountPercentage: number
+  images: string[]
+  category: string
+}
+export interface IProductLong {
+  id: number
+  title: string
   description: string
   category: string
   price: number
